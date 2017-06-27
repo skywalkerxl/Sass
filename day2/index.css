@@ -1,0 +1,18 @@
+@charset "UTF-8";
+/* 继承 */
+.class1, .class2 {
+  border: 1px solid #ddd; }
+
+.class2 {
+  font-size: 120%; }
+
+/* Mixin 类似于C语言中的宏*/
+div {
+  float: left;
+  margin-left: 10px; }
+
+div {
+  float: left;
+  margin-right: 20px; }
+
+/*# sourceMappingURL=index.css.map */

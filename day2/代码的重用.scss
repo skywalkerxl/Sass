@@ -1,0 +1,28 @@
+@charset "utf-8";
+/* 继承 */
+.class1 {
+    border: 1px solid #ddd;
+}
+//现在让class2继承class1
+.class2 {
+    @extend .class1;
+	font-size:120%;
+}
+/* Mixin 类似于C语言中的宏*/
+@mixin left {
+    float : left;
+	margin-left : 10px;
+}
+//使用include命令，调用这个mixin
+div {
+	@include left;
+}
+//可以指定参数和缺省值
+@mixin left($value: 10px) {
+    float : left;
+	margin-right : $value;
+}
+//可以通过传参的方式来使用
+div {
+	@include left(20px);
+}
