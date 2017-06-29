@@ -1,0 +1,44 @@
+@charset "UTF-8";
+/* 
+	高级用法
+	5.1 条件语句
+ */
+p {
+  border: 1px solid; }
+
+ /*@if lightness($color) > 30% {
+	background-color : #000;
+ }@else {
+	background-color : #fff;
+ }*/
+/* 循环语句 */
+.border-1 {
+  border: 1px solid blue; }
+
+.border-2 {
+  border: 2px solid blue; }
+
+.border-3 {
+  border: 3px solid blue; }
+
+.border-4 {
+  border: 4px solid blue; }
+
+.border-5 {
+  border: 5px solid blue; }
+
+.border-6 {
+  border: 6px solid blue; }
+
+.border-7 {
+  border: 7px solid blue; }
+
+.border-8 {
+  border: 8px solid blue; }
+
+.border-9 {
+  border: 9px solid blue; }
+
+/* 支持while循环 */
+
+/*# sourceMappingURL=index.css.map */

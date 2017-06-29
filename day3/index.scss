@@ -1,0 +1,22 @@
+@charset "utf-8";
+/* 
+	高级用法
+	5.1 条件语句
+ */
+ p{
+	@if 1 + 1 == 2 { border: 1px solid }
+	@if 5 < 3 { border: 2px dotted; }
+ }
+ //配套的还有else语句
+ /*@if lightness($color) > 30% {
+	background-color : #000;
+ }@else {
+	background-color : #fff;
+ }*/
+ /* 循环语句 */
+ @for $i from 1 to 10 {
+	.border-#{$i}{
+		border: #{$i}px solid blue;
+	}
+ }
+ /* 支持while循环 */
